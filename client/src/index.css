@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+  background-color: #222;
+  color: #fff;
+  font-family: 'Muli', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.foot
+{
+    color: #808080;
+    
+
+}
+
+.text
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logos{
+    
+    width: 250px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+.contain {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 20px 40px;
+  border-radius: 5px;
+}
+
+.contain h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.contain a {
+  text-decoration: none;
+ 
+}
+
+.btns {
+  cursor: pointer;
+  display: inline-block;
+  width: 100%;
+  background: #5cb85c;
+  padding: 10px;
+  font-family: inherit;
+  font-size: 16px;
+  border: 0;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.btns:focus {
+  outline: 0;
+}
+
+.btns:active {
+  transform: scale(0.98);
+}
+
+.check{
+    margin-bottom: 30px;
+}
+.text {
+  margin-top: 30px;
+}
+
+.form-controls {
+  position: relative;
+  margin: 20px 0 40px;
+  width: 300px;
+}
+
+.form-controls input {
+  background-color: transparent;
+  border: 0;
+  border-bottom: 2px #fff solid;
+  display: block;
+  width: 100%;
+  padding: 15px 0;
+  font-size: 18px;
+  color: #fff;
+}
+
+.form-controls input:focus,
+.form-controls input:valid {
+  outline: 0;
+  
+}
+
+.form-controls label {
+  position: absolute;
+  top: -10px;
+  left: 0;
+  pointer-events: none;
+}
+
+
+
+.form-controls input:focus + label span,
+.form-controls input:valid + label span {
+ 
+  display: hidden;
+}
+
+
+
+
+.dashboard
+{
+  height: 100vh;
+  background-color: rgb(255, 239, 223);
+}
+
+.containers
+{
+  display: flex;
+
+}
+.card
+{
+  background-color: white;
+  width: 150px;
+  height: 70px;
+  display: flex;
+  flex: 1;
+  margin: 10px;
+}
+
+.line
+{
+  height: 100%;
+  width: 10%;
+  background-color: yellow; 
+  margin-right: 10px;
+}
+
+.success{
+  color: #5cb85c;
+}
+
+.danger
+{
+  color: rgb(233, 57, 57);
+} */
+
+.section1{
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+
+.section2{
+height: 50vh;
+display: flex;
+margin-top: 50px;
+
+}
+
+.location
+{
+  height: 100%;
+  width: 40%;
+  flex:1;
+  margin-left: 10px;
+}
+
+.revenue
+{
+  height: 100%;
+  width: 40%;
+  flex:1;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+.headline
+{
+  font-size: 15px;
+  font-weight: bold;
+}
+
+
+

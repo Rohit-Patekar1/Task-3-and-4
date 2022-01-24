@@ -1,0 +1,16 @@
+.cards
+{
+  all:unset;
+  display: flex;
+  height: 400px;
+  background-color: #222;
+
+}
+.card
+{
+  all:unset;
+  background-color: red;
+  width: 100px;
+  height: 100px
+
+}
